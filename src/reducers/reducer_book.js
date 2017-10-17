@@ -1,9 +1,9 @@
 export default function () {
     return [
-        {title:'Javascript: the good parts'},
-        {title:'Harry poter'},
-        {title:'El Mago de Oz'},
-        {title:'Kama Sutra'},
-        {title:'the bible'}
+        {title:'Javascript: the good parts', author: 'sebaspask'},
+        {title:'Harry poter', author: 'Mex'},
+        {title:'El Mago de Oz', author: 'Julian'},
+        {title:'Kama Sutra', author: 'Alejandro'},
+        {title:'the bible', author: 'Natalia'}
     ]
 }
