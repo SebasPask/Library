@@ -1,10 +1,8 @@
-
 import { combineReducers } from 'redux';
 import BooksReducer from './reducer_book';
-import DvdsReducer from './reducer_dvd';
+import ActiveBook from './reducer_active_book';
 const rootReducer = combineReducers({
   books: BooksReducer,
-    book: BooksReducer(sebas,asd)
+  activeBook: ActiveBook
 });
-
 export default rootReducer;
